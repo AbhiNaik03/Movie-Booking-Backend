@@ -3,6 +3,6 @@ const findAllGenres = require('../controllers/genre.controller')
 
 const router = express.Router();
 
-router.get('/genres', findAllGenres);
+router.get('/api/genres', findAllGenres);
 
 module.exports = router;
